@@ -21,3 +21,6 @@ robot/rc-partner-apis/results/
 
 # Misc
 .DS_Store
+
+# sensitive data
+/scripts/authTokenRequest-prod.xml

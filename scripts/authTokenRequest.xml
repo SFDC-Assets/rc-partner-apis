@@ -2,14 +2,13 @@
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:enterprise.soap.sforce.com">
   <soapenv:Header>
     <urn:LoginScopeHeader>
-      <urn:organizationId>00D6O0000011MCh
-</urn:organizationId>
+      <urn:organizationId>{ORG ID}</urn:organizationId>
     </urn:LoginScopeHeader>
   </soapenv:Header>
   <soapenv:Body>
     <urn:login>
-        <urn:username>paul.partner@rc-20211005-demo.com</urn:username>
-        <urn:password>salesforce1</urn:password>
+        <urn:username>{USERNAME}</urn:username>
+        <urn:password>{PASSWORD}</urn:password>
     </urn:login>
   </soapenv:Body>
 </soapenv:Envelope>
