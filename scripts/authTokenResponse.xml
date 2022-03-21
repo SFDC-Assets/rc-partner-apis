@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:enterprise.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <loginResponse>
+            <result>
+                <metadataServerUrl>https://rc-20211005-demo.my.salesforce.com/services/Soap/m/52.0/00D6O0000011MCh</metadataServerUrl>
+                <passwordExpired>false</passwordExpired>
+                <sandbox>false</sandbox>
+                <serverUrl>https://rc-20211005-demo.my.salesforce.com/services/Soap/c/52.0/00D6O0000011MCh</serverUrl>
+                <sessionId>00D6O0000011MCh!AQYAQA.Q0p0_pODtH94r2U0Df47mafPerOc_fLmEkiOEvXO9J96ZPOG8nh7C9GFGq3yw3YZsiIvJip83KBo.fpgnACSsWsoL</sessionId>
+                <userId>0056O00000CofYHQAZ</userId>
+                <userInfo>
+                    <accessibilityMode>false</accessibilityMode>
+                    <chatterExternal>false</chatterExternal>
+                    <currencySymbol>$</currencySymbol>
+                    <orgAttachmentFileSizeLimit>26214400</orgAttachmentFileSizeLimit>
+                    <orgDefaultCurrencyIsoCode>USD</orgDefaultCurrencyIsoCode>
+                    <orgDefaultCurrencyLocale>en_US</orgDefaultCurrencyLocale>
+                    <orgDisallowHtmlAttachments>false</orgDisallowHtmlAttachments>
+                    <orgHasPersonAccounts>true</orgHasPersonAccounts>
+                    <organizationId>00D6O0000011MChUAM</organizationId>
+                    <organizationMultiCurrency>false</organizationMultiCurrency>
+                    <organizationName>Salesforce Demo (20211005)</organizationName>
+                    <profileId>00e6O000001iZEoQAM</profileId>
+                    <roleId>00E6O000001ZuOXUA0</roleId>
+                    <sessionSecondsValid>43200</sessionSecondsValid>
+                    <userDefaultCurrencyIsoCode xsi:nil="true" />
+                    <userEmail>ppartner@mailinator.com</userEmail>
+                    <userFullName>Paul Partner</userFullName>
+                    <userId>0056O00000CofYHQAZ</userId>
+                    <userLanguage>en_US</userLanguage>
+                    <userLocale>en_US</userLocale>
+                    <userName>paul.partner@rc-20211005-demo.com</userName>
+                    <userTimeZone>America/Los_Angeles</userTimeZone>
+                    <userType>PowerPartner</userType>
+                    <userUiSkin>Theme3</userUiSkin>
+                </userInfo>
+            </result>
+        </loginResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

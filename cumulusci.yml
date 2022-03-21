@@ -1,0 +1,25 @@
+minimum_cumulusci_version: '3.50.0'
+project:
+    name: rc-partner-apis
+    package:
+        name: rc-partner-apis
+        api_version: '52.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/rc-partner-apis/tests
+            options:
+                outputdir: robot/rc-partner-apis/results
+
+    robot_testdoc:
+        options:
+            path: robot/rc-partner-apis/tests
+            output: robot/rc-partner-apis/doc/rc-partner-apis_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
