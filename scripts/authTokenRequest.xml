@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:enterprise.soap.sforce.com">
-  <soapenv:Header>
-    <urn:LoginScopeHeader>
-      <urn:organizationId>{ORG ID}</urn:organizationId>
-    </urn:LoginScopeHeader>
-  </soapenv:Header>
   <soapenv:Body>
     <urn:login>
-        <urn:username>{USERNAME}</urn:username>
+        <urn:username>{PARTNER COMMUNITY USERNAME}</urn:username>
         <urn:password>{PASSWORD}</urn:password>
     </urn:login>
   </soapenv:Body>
